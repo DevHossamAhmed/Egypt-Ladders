@@ -1,6 +1,5 @@
 "use client"
 
-import React, { useEffect, useRef } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import styles from "./slide.module.css";
 import "@splidejs/splide/dist/css/splide.min.css";

@@ -1,29 +1,29 @@
-.item1 {
-  height: 800px;
+.firPic {
+  height: 750px;
   width: 100%;
   background-color: red;
 }
 
-.item2 {
-  height: 800px;
+.secPic {
+  height: 750px;
   width: 100%;
   background-color: blue;
 }
 
-.item3 {
-  height: 800px;
+.therPic {
+  height: 750px;
   width: 100%;
   background-color: green;
 }
 
-.item4 {
-  height: 800px;
+.fourPic {
+  height: 750px;
   width: 100%;
   background-color: gray;
 }
 
-.item5 {
-  height: 800px;
+.fivPic {
+  height: 750px;
   width: 100%;
   background-color: black;
 }

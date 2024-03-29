@@ -22,13 +22,13 @@ const Links = () => {
             <Link href="/">الرئيسية</Link>
           </li>
           <li className="hover:text-bgbtn  text-textColor">
-            <Link href="/">من نحن</Link>
+            <Link href="/about">من نحن</Link>
           </li>
           <li className="hover:text-bgbtn  text-textColor">
             <Link href="/">منتجاتنا </Link>
           </li>
           <li className="hover:text-bgbtn  text-textColor">
-            <Link href="/"> اتصل بنا</Link>
+            <Link href="/contact-us"> اتصل بنا</Link>
           </li>
           <li className="pl-4">
             <button className="bg-bgbtn hover:bg-hoverbtn text-white pl-5 border-[1px] border-bgbtn text-center items-center px-4 h-[30px] rounded-md py-[1px] "> كتالوج</button>

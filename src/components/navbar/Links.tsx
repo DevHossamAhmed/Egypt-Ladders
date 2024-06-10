@@ -25,7 +25,7 @@ const Links = () => {
             <Link href="/about">من نحن</Link>
           </li>
           <li className="hover:text-bgbtn  text-textColor">
-            <Link href="/">منتجاتنا </Link>
+            <Link href="/our-products">منتجاتنا </Link>
           </li>
           <li className="hover:text-bgbtn  text-textColor">
             <Link href="/contact-us"> اتصل بنا</Link>

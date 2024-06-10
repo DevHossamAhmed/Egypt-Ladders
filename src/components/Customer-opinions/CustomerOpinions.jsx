@@ -1,59 +1,50 @@
 "use client";
+
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.min.css";
 import styles from "./customer.module.css";
+import "@splidejs/splide/dist/css/splide.min.css";
 import Image from "next/image";
-import pic1 from "../../../public/images/1.jpg"
+import slide01 from "../../../public/images/1.jpg";
+import slide02 from "../../../public/images/2.jpg";
+import slide03 from "../../../public/images/3.jpg";
 
 const CustomerOpinions = () => {
   return (
-    <div>
-      <h1 className="text-[18px] md:text-2xl text-center font-medium mb-5">آراء عملائنا</h1>
-      <div>
-        <Splide>
-          <SplideSlide className={styles.item1}>
-            <div className="w-[70px] h-[70px] rounded-full bg-gray-300 text-center py-[20px] text-[14px] m-auto mt-3 mb-2">
-              <Image src={pic1} alt="pic" className="w-full" />
-            </div>
-            
-            <h2 className="text-center ">حسام الدين احمد </h2>
-            <h3 className="text-center py-2 ">مطور واجهة امامية برمجية </h3>
-            <h3 className="text-center ">من افضل الشركات تعامل ويوجد بها افضل جودة وافضل خدمة عملاء</h3>
-          </SplideSlide>
-          <SplideSlide className={styles.item2}>
-            <div className="w-[70px] h-[70px] rounded-full bg-gray-300 text-center py-[20px] text-[14px] m-auto mt-3 mb-2">
-              <Image src={pic1} alt="pic" className="w-full" />
-            </div>
-            <h2 className="text-center ">حسام الدين احمد </h2>
-            <h3 className="text-center py-2 ">مطور واجهة امامية برمجية </h3>
-            <h3 className="text-center ">من افضل الشركات تعامل ويوجد بها افضل جودة وافضل خدمة عملاء</h3>
-          </SplideSlide>
-          <SplideSlide className={styles.item3}>
-            <div className="w-[70px] h-[70px] rounded-full bg-gray-300 text-center py-[20px] text-[14px] m-auto mt-3 mb-2">
-              <Image src={pic1} alt="pic" className="w-full" />
-            </div>
-            <h2 className="text-center ">حسام الدين احمد </h2>
-            <h3 className="text-center py-2 ">مطور واجهة امامية برمجية </h3>
-            <h3 className="text-center ">من افضل الشركات تعامل ويوجد بها افضل جودة وافضل خدمة عملاء</h3>
-          </SplideSlide>
-          <SplideSlide className={styles.item4}>
-            <div className="w-[70px] h-[70px] rounded-full bg-gray-300 text-center py-[20px] text-[14px] m-auto mt-3 mb-2">
-              <Image src={pic1} alt="pic" className="w-full" />
-            </div>
-            <h2 className="text-center ">حسام الدين احمد </h2>
-            <h3 className="text-center py-2 ">مطور واجهة امامية برمجية </h3>
-            <h3 className="text-center ">من افضل الشركات تعامل ويوجد بها افضل جودة وافضل خدمة عملاء</h3>
-          </SplideSlide>
-          <SplideSlide className={styles.item5}>
-            <div className="w-[70px] h-[70px] rounded-full bg-gray-300 text-center py-[20px] text-[14px] m-auto mt-3 mb-2">
-              <Image src={pic1} alt="pic" className="w-full" />
-            </div>
-            <h2 className="text-center ">حسام الدين احمد </h2>
-            <h3 className="text-center py-2 ">مطور واجهة امامية برمجية </h3>
-            <h3 className="text-center ">من افضل الشركات تعامل ويوجد بها افضل جودة وافضل خدمة عملاء</h3>
-          </SplideSlide>
-        </Splide>
-      </div>
+    <div className="pt-[100px]" dir="rtl">
+      <h1 className="text-center pb-6">آراء عملائنا</h1>
+      <Splide
+        options={{
+          type: 'loop',
+          perPage: 1,
+          autoplay: true,
+          interval: 5000, // تغيير الزمن هنا إلى 5000 ميلي ثانية (5 ثواني)
+          direction: 'rtl',
+          pagination: false,
+          arrows: true,
+          pauseOnHover: false,
+          resetProgress: false,
+          speed: 1000, // سرعة التنقل بين الشرائح
+        }}
+      >
+        <SplideSlide className={styles.item1}>
+          <Image src={slide01} alt="Image 1" className="w-[70px] h-[70px] rounded-full m-auto my-3"/>
+          <h1 className="text-center">حسام الدين احمد</h1>
+          <p className="text-center">مهندس برمجيات</p>
+          <p className="text-center">من افضل الشركات تعامل وخبره وجودة عالية </p>
+        </SplideSlide>
+        <SplideSlide className={styles.item2}>
+          <Image src={slide02} alt="Image 2" className="w-[70px] h-[70px] rounded-full m-auto my-3"/>
+          <h1 className="text-center">احمد علي</h1>
+          <p className="text-center">مهندس اشراف لدي شركة ارامكس</p>
+          <p className="text-center">من افضل الشركات تعامل وخبره وجودة عالية </p>
+        </SplideSlide>
+        <SplideSlide className={styles.item3}>
+          <Image src={slide03} alt="Image 3" className="w-[70px] h-[70px] rounded-full m-auto my-3"/>
+          <h1 className="text-center">السيد محمود الحكيم</h1>
+          <p className="text-center">مهندس معماري</p>
+          <p className="text-center">من افضل الشركات تعامل وخبره وجودة عالية </p>
+        </SplideSlide>
+      </Splide>
     </div>
   );
 };

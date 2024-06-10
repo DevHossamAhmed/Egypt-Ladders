@@ -1,29 +1,29 @@
 .firPic {
-  height: 750px;
+  height: 650px;
   width: 100%;
-  background-color: red;
 }
 
 .secPic {
-  height: 750px;
+  height: 650px;
   width: 100%;
-  background-color: blue;
 }
 
 .therPic {
-  height: 750px;
+  height: 650px;
   width: 100%;
-  background-color: green;
 }
 
 .fourPic {
-  height: 750px;
+  height: 650px;
   width: 100%;
-  background-color: gray;
 }
 
 .fivPic {
-  height: 750px;
+  height: 650px;
   width: 100%;
-  background-color: black;
+}
+
+.imgeSlide {
+  height: 650px;
+  width: 100%;
 }

@@ -9,7 +9,7 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-10 px-4 py-5 bg-[#b4b4b4] text-textColor">
+    <div className="w-full mt-10 px-4 py-5 bg-[#e7e4e4] text-textColor">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="flex justify-center lg:justify-start gap-2">

@@ -51,13 +51,13 @@ const Navbar = () => {
                           منتجاتنا <MdKeyboardArrowDown />
                         </Menu.Button>
 
-                        <Menu.Items className="flex flex-col xl:px-[15px] leading-10 text-[12px] xl:text-[16px] xl:text-start   text-center xl:fixed  xl:w-[250px] xlpy-[30px] xl:mt-[35px]  bg-primary rounded-md">
+                        <Menu.Items className="flex flex-col xl:px-[15px] leading-10 text-[12px] xl:text-[16px] xl:text-start   text-center xl:fixed  xl:w-[250px] xlpy-[30px] xl:mt-[35px]  bg-[#e5e5ee] rounded-md">
                           <Menu.Item>
                             {({ active }) => (
                               <Link
                                 className={`${
-                                  active && "bg-[#1f1a36]"
-                                } hover:text-third`}
+                                  active && "bg-[#9f9fa0]"
+                                }`}
                                 href="/our-products/single-ladder"
                               >
                                 سلم الومنيوم مفرد{" "}
@@ -69,8 +69,8 @@ const Navbar = () => {
                             {({ active }) => (
                               <Link
                                 className={`${
-                                  active && "bg-[#1f1a36]"
-                                } hover:text-third`}
+                                  active && "bg-[#9f9fa0]"
+                                }`}
                                 href="/our-products/double-ladder"
                               >
                                 سلم الومنيوم مزدوج{" "}
@@ -83,8 +83,8 @@ const Navbar = () => {
                             {({ active }) => (
                               <Link
                                 className={`${
-                                  active && "bg-[#1f1a36]"
-                                } hover:text-third`}
+                                  active && "bg-[#9f9fa0]"
+                                } `}
                                 href="/our-products/scaffold"
                               >
                                 سقالات الومنيوم{" "}
@@ -96,8 +96,8 @@ const Navbar = () => {
                             {({ active }) => (
                               <Link
                                 className={`${
-                                  active && "bg-[#1f1a36]"
-                                } hover:text-third`}
+                                  active && "bg-[#9f9fa0]"
+                                } `}
                                 href="/our-products/ladder-towers"
                               >
                                 سلالم الومنيوم ابراج{" "}
@@ -109,8 +109,8 @@ const Navbar = () => {
                             {({ active }) => (
                               <Link
                                 className={`${
-                                  active && "bg-[#1f1a36]"
-                                } hover:text-third`}
+                                  active && "bg-[#9f9fa0]"
+                                } `}
                                 href="/our-products/aluminum-pallet"
                               >
                                 باليتات الومنيوم
@@ -194,8 +194,8 @@ const Navbar = () => {
                           {({ active }) => (
                             <Link
                               className={`${
-                                active && "bg-[#1f1a36]"
-                              } hover:text-third`}
+                                active && "bg-[#9f9fa0]"
+                              } `}
                               href="/our-products/single-ladder"
                             >
                               سلم الومنيوم مفرد{" "}
@@ -207,8 +207,8 @@ const Navbar = () => {
                           {({ active }) => (
                             <Link
                               className={`${
-                                active && "bg-[#1f1a36]"
-                              } hover:text-third`}
+                                active && "bg-[#9f9fa0]]"
+                              } `}
                               href="/our-products/double-ladder"
                             >
                               سلم الومنيوم مزدوج{" "}
@@ -221,8 +221,8 @@ const Navbar = () => {
                           {({ active }) => (
                             <Link
                               className={`${
-                                active && "bg-[#1f1a36]"
-                              } hover:text-third`}
+                                active && "bg-[#9f9fa0]"
+                              } `}
                               href="/our-products/scaffold"
                             >
                               سقالات الومنيوم{" "}
@@ -234,8 +234,8 @@ const Navbar = () => {
                           {({ active }) => (
                             <Link
                               className={`${
-                                active && "bg-[#1f1a36]"
-                              } hover:text-third`}
+                                active && "bg-[#9f9fa0]"
+                              } `}
                               href="/our-products/ladder-towers"
                             >
                               سلالم الومنيوم ابراج{" "}

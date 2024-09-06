@@ -9,30 +9,30 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-10 px-4 py-5 bg-[#e7e4e4] text-textColor">
+    <div className="w-full mt-10 px-4 py-5 bg-[#e7e4e4] text-black ">
       <Container>
         <div className="flex flex-col lg:flex-row justify-between">
-          <div className="flex justify-center lg:justify-start gap-2">
+          <div className="flex justify-center text-[18px] lg:justify-start gap-2">
             <Link href="/">من نحن</Link>
             <Link href="/">تواصل معنا </Link>
             <Link href="">سياسة الشركة</Link>
           </div>
-          <p className="text-center text-[14px] lg:text-[16px] ">© إيجيبت لادرز جميع الحقوق محفوظة.</p>
+          <p className="text-center text-[14px] lg:text-[19px] ">© إيجيبت لادرز جميع الحقوق محفوظة.</p>
           <div className="flex justify-center gap-2 mt-3 lg:mt-0 items-center">
             <Link href="/">
-              <FaFacebook />
+              <FaFacebook className="text-[20px]"/>
             </Link>
             <Link href="/">
-              <IoLogoLinkedin />
+              <IoLogoLinkedin className="text-[20px]"/>
             </Link>
             <Link href="/">
-              <FaTwitter />
+              <FaTwitter className="text-[20px]"/>
             </Link>
             <Link href="/">
-              <AiFillInstagram />
+              <AiFillInstagram className="text-[20px]"/>
             </Link>
             <Link href="/">
-              <IoLogoYoutube />
+              <IoLogoYoutube className="text-[20px]"/>
             </Link>
           </div>
         </div>

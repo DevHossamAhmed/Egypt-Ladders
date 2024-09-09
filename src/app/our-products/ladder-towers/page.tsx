@@ -14,7 +14,7 @@ const page = () => {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-5 ">
           <Link href="/our-products/ladder-towers/model-TW">
-            <div className="w-full  h-[300px]  rounded mb-5 overflow-hidden shadow-lg">
+            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
               <div className="w-full h-[200px]">
                 <Image
                   className="w-full h-[200px]"

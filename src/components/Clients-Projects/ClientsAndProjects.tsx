@@ -1,37 +1,70 @@
-import Link from "next/link";
-import Container from "../Container";
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import mat01 from "../../../public/images/material01.png";
+import mat02 from "../../../public/images/material02.png";
+import mat03 from "../../../public/images/material03.png";
+import mat04 from "../../../public/images/material04.png";
+import mat05 from "../../../public/images/material05.png";
+import mat06 from "../../../public/images/material06.png";
 
 const ClientsAndProjects = () => {
+  const images = [mat01, mat02, mat03, mat04, mat05, mat06];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
     <div className="my-10 px-4">
-      <Container>
-        <h1 className="text-[18px] md:text-2xl text-center font-medium mb-5">العملاء والمشاريع المميزة</h1>
-        <div>
-          <div className="grid grid-cols-2 lg:grid-cols-4">
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center mb-5 lg:mb-0">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center mb-5 lg:mb-0">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center">Logo</div>
-          </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 my-5">
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center mb-5 lg:mb-0">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center mb-5 lg:mb-0">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center">Logo</div>
-          </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4">
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center mb-5 lg:mb-0">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center mb-5 lg:mb-0">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center">Logo</div>
-            <div className="bg-gray-400 w-[50%] md:w-[50%] lg:w-[40%] h-[70px] pt-[25px] rounded-md m-auto text-center">Logo</div>
-          </div>
-          <div className="w-full  flex justify-center mt-5">
-            <Link href="/clients-projects">
-              <button className="bg-bgbtn hover:bg-hoverbtn my-5 text-white pl-5 border-[1px] border-bgbtn text-center items-center px-4 h-[30px] w-[130px] rounded-md py-[1px] "> المزيد</button>
-            </Link>
-          </div>
+      <h1 className="text-[18px] md:text-2xl text-center font-medium mb-5">
+        شهاداتنا
+      </h1>
+      <div className="relative w-full max-w-4xl mx-auto">
+        {/* عرض الصورة الحالية */}
+        <div className="flex justify-center items-center h-[500px]">
+          <Image
+            src={images[currentIndex]}
+            alt={`Material ${currentIndex + 1}`}
+            className="w-full h-[500px]"
+          />
         </div>
-      </Container>
+
+        {/* أزرار التنقل */}
+        <button
+          onClick={handleNext}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+        >
+          &#8250;
+        </button>
+        <button
+          onClick={handlePrev}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+        >
+          &#8249;
+        </button>
+      </div>
+
+      {/* نقاط التنقل أسفل الصور */}
+      <div className="flex justify-center mt-4">
+        {images.map((_, index) => (
+          <div
+            key={index}
+            className={`w-2 h-2 mx-1 rounded-full ${
+              currentIndex === index ? "bg-gray-800" : "bg-gray-400"
+            }`}
+          ></div>
+        ))}
+      </div>
     </div>
   );
 };

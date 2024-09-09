@@ -5,7 +5,7 @@ import model33 from "../../../../public/images/33.png";
 import model48 from "../../../../public/images/48.png";
 import model42 from "../../../../public/images/42.png";
 import modelB48 from "../../../../public/images/B48.png";
-import modelK47 from "../../../../public/images/K47.png";
+import modelK47 from "../../../../public/images/74.png";
 import model43 from "../../../../public/images/43.png";
 import modelN43 from "../../../../public/images/N43.png";
 import model44 from "../../../../public/images/44.png";
@@ -21,7 +21,7 @@ const page = () => {
         <div className="">
           <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4  gap-5 ">
             <Link href="/our-products/double-ladder/model-33">
-              <div className="w-full  h-[300px]  rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -38,7 +38,7 @@ const page = () => {
             </Link>
             {/* =================== */}
             <Link href="/our-products/double-ladder/model-48">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -55,7 +55,7 @@ const page = () => {
             </Link>
             {/* ================== */}
             <Link href="/our-products/double-ladder/model-42">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -72,7 +72,7 @@ const page = () => {
             </Link>
             {/* ================== */}
             <Link href="/our-products/double-ladder/model-B48">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -89,7 +89,7 @@ const page = () => {
             </Link>
             {/* ================== */}
             <Link href="/our-products/double-ladder/model-K74">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -106,7 +106,7 @@ const page = () => {
             </Link>
             {/* ===================== */}
             <Link href="/our-products/double-ladder/model-43">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -123,7 +123,7 @@ const page = () => {
             </Link>
             {/* ===================== */}
             <Link href="/our-products/double-ladder/model-N43">
-              <div className="w-full h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg ">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -140,7 +140,7 @@ const page = () => {
             </Link>
             {/* ===================== */}
             <Link href="/our-products/double-ladder/model-44">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"
@@ -157,7 +157,7 @@ const page = () => {
             </Link>
             {/* ======================== */}
             <Link href="/our-products/double-ladder/model-92">
-              <div className="w-full  h-[300px] rounded mb-5 overflow-hidden shadow-lg">
+              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
                 <div className="w-full h-[200px]">
                   <Image
                     className="w-full h-[200px]"

@@ -18,20 +18,20 @@ const Footer = () => {
             <Link href="">سياسة الشركة</Link>
           </div>
           <p className="text-center text-[14px] lg:text-[19px] ">© إيجيبت لادرز جميع الحقوق محفوظة.</p>
-          <div className="flex justify-center gap-2 mt-3 lg:mt-0 items-center">
-            <Link href="/">
+          <div className="flex justify-center gap-8 mt-3 lg:mt-0 items-center">
+            <Link href="https://www.facebook.com/EgyptLadder">
               <FaFacebook className="text-[20px]"/>
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
               <IoLogoLinkedin className="text-[20px]"/>
             </Link>
             <Link href="/">
               <FaTwitter className="text-[20px]"/>
-            </Link>
-            <Link href="/">
+            </Link> */}
+            <Link href="https://www.instagram.com/egypt.ladders.officail/">
               <AiFillInstagram className="text-[20px]"/>
             </Link>
-            <Link href="/">
+            <Link href="https://www.youtube.com/@egyptladders5935">
               <IoLogoYoutube className="text-[20px]"/>
             </Link>
           </div>

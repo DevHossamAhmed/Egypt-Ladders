@@ -1,6 +1,6 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-import modelK74 from "../../../../../public/images/K47.png";
+import modelK74 from "../../../../../public/images/74.png";
 const Plt = () => {
   return (
     <div className="mt-36 px-4">

@@ -54,17 +54,6 @@ const ClientsAndProjects = () => {
         </button>
       </div>
 
-      {/* نقاط التنقل أسفل الصور */}
-      <div className="flex justify-center mt-4">
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`w-2 h-2 mx-1 rounded-full ${
-              currentIndex === index ? "bg-gray-800" : "bg-gray-400"
-            }`}
-          ></div>
-        ))}
-      </div>
     </div>
   );
 };

@@ -21,16 +21,16 @@ const page = () => {
         <div className="">
           <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4  gap-5 ">
             <Link href="/our-products/double-ladder/model-33">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={model33}
                     alt="model33"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-[18px] mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم مزدوج درج عريض من جانب واحد{" "}
                   </div>
                 </div>
@@ -38,16 +38,16 @@ const page = () => {
             </Link>
             {/* =================== */}
             <Link href="/our-products/double-ladder/model-48">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={model48}
                     alt="model48"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-[18px] mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم مزدوج درج وقوف عريض من الجانبين{" "}
                   </div>
                 </div>
@@ -55,16 +55,16 @@ const page = () => {
             </Link>
             {/* ================== */}
             <Link href="/our-products/double-ladder/model-42">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={model42}
                     alt="model42"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-[18px] mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم مزدوج درج وقوف من الجانبين{" "}
                   </div>
                 </div>
@@ -72,16 +72,16 @@ const page = () => {
             </Link>
             {/* ================== */}
             <Link href="/our-products/double-ladder/model-B48">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={modelB48}
                     alt="modelB48"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-[18px] mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم مزدوج درج عريض من الجانبين{" "}
                   </div>
                 </div>
@@ -89,16 +89,16 @@ const page = () => {
             </Link>
             {/* ================== */}
             <Link href="/our-products/double-ladder/model-K74">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={modelK47}
                     alt="modelK47"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-[18px] mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم مفصلي متعدد الاستخدام
                   </div>
                 </div>
@@ -106,16 +106,16 @@ const page = () => {
             </Link>
             {/* ===================== */}
             <Link href="/our-products/double-ladder/model-43">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={model43}
                     alt="model43"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم ثلاث وصلات قابل للتحويل
                   </div>
                 </div>
@@ -123,16 +123,16 @@ const page = () => {
             </Link>
             {/* ===================== */}
             <Link href="/our-products/double-ladder/model-N43">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg ">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={modelN43}
                     alt="model43"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم ثلاث وصلات
                   </div>
                 </div>
@@ -140,16 +140,16 @@ const page = () => {
             </Link>
             {/* ===================== */}
             <Link href="/our-products/double-ladder/model-44">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={model44}
                     alt="model43"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم قابل للتحويل جزئين
                   </div>
                 </div>
@@ -157,16 +157,16 @@ const page = () => {
             </Link>
             {/* ======================== */}
             <Link href="/our-products/double-ladder/model-92">
-              <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-                <div className="w-full h-[200px]">
+              <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+                <div className="w-full h-[270px]">
                   <Image
-                    className="w-full h-[200px]"
+                    className="w-full h-[270px]"
                     src={model92}
                     alt="model43"
                   />
                 </div>
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">
+                  <div className="font-medium text-[18px] mb-2">
                     سلم الومنيوم ثلاث وصلات منزلق  
                   </div>
                 </div>

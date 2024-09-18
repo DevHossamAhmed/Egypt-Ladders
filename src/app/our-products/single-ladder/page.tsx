@@ -17,16 +17,16 @@ const page = () => {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4  gap-5 ">
           <Link href="/our-products/single-ladder/model-40">
-            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-              <div className="w-full h-[200px]">
+            <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+              <div className="w-full h-[270px]">
                 <Image
-                  className="w-full h-[200px]"
+                  className="w-full h-[270px]"
                   src={model40}
                   alt="model40"
                 />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-medium text-[18px] mb-2">
                   سلم الومنيوم مفرد ذات وصلة واحدة{" "}
                 </div>
               </div>
@@ -34,16 +34,16 @@ const page = () => {
           </Link>
           {/* ============================= */}
           <Link href="/our-products/single-ladder/model-49">
-            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-              <div className="w-full h-[200px]">
+            <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+              <div className="w-full h-[270px]">
                 <Image
-                  className="w-full h-[200px]"
+                  className="w-full h-[270px]"
                   src={model49}
                   alt="model40"
                 />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-medium text-[18px] mb-2">
                   سلم الومنيوم مفرد درج وقوف عريض{" "}
                 </div>
               </div>
@@ -51,16 +51,16 @@ const page = () => {
           </Link>
           {/* ============================= */}
           <Link href="/our-products/single-ladder/model-41">
-            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-              <div className="w-full h-[200px]">
+            <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+              <div className="w-full h-[270px]">
                 <Image
-                  className="w-full h-[200px]"
+                  className="w-full h-[270px]"
                   src={model41}
                   alt="model40"
                 />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-medium text-[18px] mb-2">
                   سلم الومنيوم منزلق ذات وصلتين{" "}
                 </div>
               </div>
@@ -68,16 +68,16 @@ const page = () => {
           </Link>
           {/* ============================= */}
           <Link href="/our-products/single-ladder/model-46">
-            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-              <div className="w-full h-[200px]">
+            <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+              <div className="w-full h-[270px]">
                 <Image
-                  className="w-full h-[200px]"
+                  className="w-full h-[270px]"
                   src={model46}
                   alt="model40"
                 />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-medium text-[18px] mb-2">
                   سلم الومنيوم مفرد بحبل جزئين{" "}
                 </div>
               </div>
@@ -85,16 +85,16 @@ const page = () => {
           </Link>
           {/* ============================= */}
           <Link href="/our-products/single-ladder/model-47">
-            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-              <div className="w-full h-[200px]">
+            <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+              <div className="w-full h-[270px]">
                 <Image
-                  className="w-full h-[200px]"
+                  className="w-full h-[270px]"
                   src={model47}
                   alt="model40"
                 />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-medium text-[18px] mb-2">
                   سلم الومنيوم مفرد بحبل ثلاث اجزاء{" "}
                 </div>
               </div>

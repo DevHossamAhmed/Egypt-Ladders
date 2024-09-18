@@ -14,16 +14,16 @@ const page = () => {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-5 ">
           <Link href="/our-products/ladder-towers/model-TW">
-            <div className="w-full md:w-[250px] bg-[#e5e5ee] h-[300px]  rounded mb-5 overflow-hidden shadow-lg border-2">
-              <div className="w-full h-[200px]">
+            <div className="w-full md:w-[360px] bg-[#d1d1d9] h-[350px]  rounded mb-5 overflow-hidden shadow-lg border-2">
+              <div className="w-full h-[270px]">
                 <Image
-                  className="w-full h-[200px]"
+                  className="w-full h-[270px]"
                   src={modeltw}
                   alt="modeltw"
                 />
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">
+                <div className="font-medium text-[18px] mb-2">
                   سلالم الومنيوم ابراج{" "}
                 </div>
               </div>

@@ -15,7 +15,7 @@ const contactUs = () => {
         <Container>
           <h2 className="text-[24px] font-medium pb-5">اتصل بنا </h2>
           <div className="flex justify-between flex-col-reverse md:flex-row gap-8">
-            <form className="flex flex-col justify-start pt-[30px] px-4 bg-gray-400 w-full xl:w-[900px] rounded-md">
+            <form className="flex flex-col justify-start pt-[30px] px-4 bg-[#d1d1d9] w-full xl:w-[900px] rounded-md">
               {/* subject */}
               <div className=" px-2 mb-[20px] rounded-md  w-full h-[50px]  border text-xs border-none focus:outline-none">
                 <select className=" px-2 mb-[20px] rounded-md  w-full h-[50px]  border text-xs border-none focus:outline-none">
@@ -84,7 +84,7 @@ const contactUs = () => {
                 ارسال
               </button>
             </form>
-            <div className="flex flex-col bg-gray-400 w-full xl:w-[600px] h-[500px] px-4 py-8 rounded-md ">
+            <div className="flex flex-col bg-[#d1d1d9] w-full xl:w-[600px] h-[500px] px-4 py-8 rounded-md ">
               <div className="flex gap-1 items-center mb-5">
                 <MdLocationOn className="text-[40px] xl:text-[25px]" />
                 <p>

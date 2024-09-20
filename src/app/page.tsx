@@ -1,5 +1,5 @@
-import ClientsAndProjects from "@/components/Clients-Projects/ClientsAndProjects";
 import AboutMain from "@/components/about-main/AboutMain";
+import OurCertificates from "@/components/our-certificates/OurCertificates";
 import Professional from "@/components/professional/Professional";
 import Slide from "@/components/slide/Slide";
 
@@ -9,7 +9,7 @@ export default function Home() {
       <Slide />
       <AboutMain />
       <Professional />
-      <ClientsAndProjects />
+      <OurCertificates />
     </main>
   );
 }

@@ -3,13 +3,12 @@ import { useState } from "react";
 import Image from "next/image";
 import mat01 from "../../../public/images/material01.png";
 import mat02 from "../../../public/images/material02.png";
-import mat03 from "../../../public/images/material03.png";
 import mat04 from "../../../public/images/material04.png";
 import mat05 from "../../../public/images/material05.png";
 import mat06 from "../../../public/images/material06.png";
 
-const ClientsAndProjects = () => {
-  const images = [mat01, mat02, mat03, mat04, mat05, mat06];
+const OurCertificates = () => {
+  const images = [mat01, mat02,  mat04, mat05, mat06];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
@@ -29,13 +28,13 @@ const ClientsAndProjects = () => {
       <h1 className="text-[18px] md:text-2xl text-center font-medium mb-5">
         شهاداتنا
       </h1>
-      <div className="relative w-full max-w-4xl mx-auto">
+      <div className="relative w-full  max-w-4xl mx-auto">
         {/* عرض الصورة الحالية */}
-        <div className="flex justify-center items-center h-[500px]">
+        <div className="flex justify-center items-center h-[650px]">
           <Image
             src={images[currentIndex]}
             alt={`Material ${currentIndex + 1}`}
-            className="w-full h-[500px]"
+            className="w-full h-[650px]"
           />
         </div>
 
@@ -58,4 +57,4 @@ const ClientsAndProjects = () => {
   );
 };
 
-export default ClientsAndProjects;
+export default OurCertificates;
